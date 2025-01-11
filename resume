@@ -1,8 +1,8 @@
-%-------------------------
+%---------------------------------------------------------------------
 % Resume in Latex
 % Author : Omkar Marne
 % Website: https://github.com/root2omkar/Resume
-%------------------------
+%---------------------------------------------------------------------
 
 \documentclass[letterpaper,11pt]{article}
 
@@ -27,10 +27,10 @@
 \renewcommand{\footrulewidth}{0pt}
 
 % Adjust margins
-\addtolength{\oddsidemargin}{-0.375in}
-\addtolength{\evensidemargin}{-0.375in}
-\addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-.5in}
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.0in}
+\addtolength{\topmargin}{-0.5in}
 \addtolength{\textheight}{1.0in}
 
 \urlstyle{same}
@@ -54,7 +54,7 @@
 
 \newcommand{\resumeSubheading}[4]{
   \vspace{-1pt}\item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \begin{tabular*}{0.95\textwidth}{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
     \end{tabular*}\vspace{-5pt}
@@ -112,14 +112,14 @@
     {University of North Carolina at Charlotte}{Charlotte, NC}
     {Research Assistant}{Aug 2022 - Present}
     \resumeItemListStart
-      \resumeItem{Algorithm Development}{Developed an algorithm in Python and R to identify lethal and non-lethal mutations in protein sequences.}
+      \resumeItem{Algorithm Development}{Developed an algorithm in R to identify missense mutations in protein sequences.}
     \resumeItemListEnd
 
   \resumeSubheading
     {University of North Carolina at Charlotte}{Charlotte, NC}
     {Research Software Engineer}{Jan 2021 - July 2022}
     \resumeItemListStart
-      \resumeItem{Website Development}{Developed \href{https://translate.bioviz.org/}{https://www.bioviz.org/} using Python Django, HTML5, and CSS.}
+      \resumeItem{Website Development}{Contributed to the development of \href{https://translate.bioviz.org/}{Trackhub} using Python Django, HTML5, and CSS.}
       \resumeItem{Web Application Improvement}{Enhanced the functionality of \href{https://apps.bioviz.org/}{Integrated Genome Browser (IGB)} using Java.}
       \resumeItem{Software Testing}{Conducted rigorous testing and bug tracking using JIRA.}
     \resumeItemListEnd
@@ -129,15 +129,15 @@
     {Data Analyst Intern}{May 2019 - Aug 2019}
     \resumeItemListStart
       \resumeItem{Data Integration}{Integrated clinical data using Talend Studio 6.3.1 and Apache Hadoop.}
-      \resumeItem{Data Lake Creation}{Built a data lake for clinical datasets, improving accessibility and performance.}
-      \resumeItem{Actionable Insights}{Created Tableau reports, aiding medical professionals in clinical decision-making.}
+      \resumeItem{Data Cleaning}{Filtered and cleaned the data using Apache Hive; Improved accessibility and performance by optimizing queries using SQL.}
+      \resumeItem{Actionable Insights}{Developed Tableau reports to assist medical professionals in clinical decision-making.}
     \resumeItemListEnd
 
   \resumeSubheading
     {Tech Mahindra}{Pune, India}
     {Database Administrator}{Sep 2014 - May 2018}
     \resumeItemListStart
-      \resumeItem{Database Management}{Managed Oracle RAC databases, migrations, and upgrades.}
+      \resumeItem{Database Management}{Managed Oracle RAC databases, including migrations and upgrades.}
       \resumeItem{Backup and Recovery}{Handled database recovery using RMAN and optimized queries for performance tuning.}
     \resumeItemListEnd
 
@@ -157,11 +157,9 @@
 \section{Technical Skills}
 
 \resumeSubHeadingListStart
-  \resumeItem{Languages}{Python, R, SQL, PL/SQL, Java, HTML5, CSS, Bootstrap.} 
-  \resumeItem{Libraries}{Scikit-learn, Pandas, NumPy, TensorFlow, PyTorch.} \resumeItem{Tools}{RStudio, Git, Tableau, Jira, Apache Hive, Talend Studio.}
-  \resumeItem{Cloud}{Microsoft Azure, AWS.}
-  \resumeItem{Frameworks}{Django, Apache Hadoop (MapReduce, HDFS).}
-  \resumeItem{Databases}{Oracle, MySQL, SAP HANA.}
+  \resumeItem{Languages}{Python, R, SQL, Java, HTML5, CSS, Bootstrap.} \resumeItem{Libraries}{Scikit-learn, Pandas, NumPy, TensorFlow, PyTorch.} \resumeItem{Tools}{RStudio, Git, Tableau, JIRA, Apache Hive, Talend Studio 6.3.1.}
+  \resumeItem{Frameworks}{Django, Apache Hadoop (MapReduce and HDFS)}
+  \resumeItem{Cloud Technologies}{Microsoft Azure, AWS.}
 \resumeSubHeadingListEnd
 
 %---------------------------CERTIFICATIONS---------------------------
@@ -169,9 +167,9 @@
 \section{Certifications}
 
 \resumeSubHeadingListStart
-  \resumeItem{Microsoft Certified}{Azure Data Fundamentals}
   \resumeItem{Microsoft Certified}{Azure Fundamentals}
   \resumeItem{OCA}{Oracle 11g Certified Associate}
 \resumeSubHeadingListEnd
-%---------------------------------------------------------------------
+%--------------------------------------------------------------------
 \end{document}
+
