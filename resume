@@ -120,7 +120,7 @@
     {Research Software Engineer}{Jan 2021 - July 2022}
     \resumeItemListStart
       \resumeItem{Website Development}{Contributed to the development of \href{https://translate.bioviz.org/}{Trackhub} using Python Django, HTML5, and CSS.}
-      \resumeItem{Web Application Improvement}{Enhanced the functionality of \href{https://apps.bioviz.org/}{Integrated Genome Browser (IGB)} using Java.}
+      \resumeItem{Website Enhancement}{Improved the functionality of \href{https://apps.bioviz.org/}{Integrated Genome Browser (IGB)} using Java.}
       \resumeItem{Software Testing}{Conducted rigorous testing and bug tracking using JIRA.}
     \resumeItemListEnd
 
@@ -149,7 +149,7 @@
 
 \resumeSubHeadingListStart
   \resumeItem{---}{---} 
-  \resumeItem{---}{---} 
+  \resumeItem{Literature Review}{---} 
 \resumeSubHeadingListEnd
 
 %---------------------------TECHNICAL SKILLS--------------------------
