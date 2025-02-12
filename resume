@@ -1,10 +1,10 @@
-%---------------------------------------------------------------------
+%--------------------------------------------------------------------------------------------
 % Resume in Latex
 % Author : Omkar Marne
 % Website: https://github.com/root2omkar/Resume
-%---------------------------------------------------------------------
+%--------------------------------------------------------------------------------------------
 
-\documentclass[letterpaper,11pt]{article}
+\documentclass[letterpaper,10pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -31,6 +31,7 @@
 \addtolength{\evensidemargin}{-0.5in}
 \addtolength{\textwidth}{1.0in}
 \addtolength{\topmargin}{-0.5in}
+
 \addtolength{\textheight}{1.0in}
 
 \urlstyle{same}
@@ -44,7 +45,8 @@
   \vspace{-4pt}\scshape\raggedright\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
-%-------------------------
+%--------------------------------------------------------------------------------------------
+
 % Custom commands
 \newcommand{\resumeItem}[2]{
   \item\small{
@@ -69,13 +71,15 @@
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
-%-------------------------------------------
+%--------------------------------------------------------------------------------------------
+
 
 %%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
 
-%---------------------------HEADING------------------------------------
+
+%---------------------------HEADING----------------------------------------------------------
 
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
   \textbf{\href{https://phyloinformatics.com/members/Omkar_Marne.html}{\Large Omkar Marne}} & Email : \href{mailto:omkar.marne21@gmail.com}{omkar.marne21@gmail.com}\\
@@ -84,7 +88,7 @@
   \href{https://phyloinformatics.com/members/Omkar_Marne.html}{Phyloinformatics Lab} & Mobile : (980) 890-2644 \\
 \end{tabular*}
 
-%---------------------------EDUCATION---------------------------------
+%---------------------------EDUCATION--------------------------------------------------------
 
 \section{Education}
 
@@ -102,7 +106,7 @@
     
 \resumeSubHeadingListEnd
 
-%---------------------------EXPERIENCE--------------------------------
+%---------------------------EXPERIENCE-------------------------------------------------------
 
 \section{Experience}
 
@@ -112,6 +116,8 @@
     {University of North Carolina at Charlotte}{Charlotte, NC}
     {Research Assistant}{Aug 2022 - Present}
     \resumeItemListStart
+      \resumeItem{Machine Learning}{}
+      \resumeItem{}{}
       \resumeItem{Algorithm Development}{Developed an algorithm in R to identify missense mutations in protein sequences.}
     \resumeItemListEnd
 
@@ -120,8 +126,8 @@
     {Research Software Engineer}{Jan 2021 - July 2022}
     \resumeItemListStart
       \resumeItem{Website Development}{Contributed to the development of \href{https://translate.bioviz.org/}{Trackhub} using Python Django, HTML5, and CSS.}
-      \resumeItem{Website Enhancement}{Improved the functionality of \href{https://apps.bioviz.org/}{Integrated Genome Browser (IGB)} using Java.}
-      \resumeItem{Software Testing}{Conducted rigorous testing and bug tracking using JIRA.}
+      \resumeItem{Website Enhancement}{Improved the functionality of \href{https://bioviz.org/index.html}{Integrated Genome Browser (IGB)} using Java.}
+      \resumeItem{Software Testing}{Tested \href{https://apps.bioviz.org/}{Apps for IGB} using the JIRA for bug tracking and resolving software compatibility issues. }
     \resumeItemListEnd
 
   \resumeSubheading
@@ -143,33 +149,37 @@
 
 \resumeSubHeadingListEnd
 
-%---------------------------RESEARCH PAPERS---------------------------
+%---------------------------RESEARCH PAPERS--------------------------------------------------
 
 \section{Research Papers}
 
 \resumeSubHeadingListStart
-  \resumeItem{---}{---} 
-  \resumeItem{Literature Review}{---} 
+  \resumeItem{}{}
+  \resumeItem{Paper}{Assessing the Reciprocal Monophyly of SARS-CoV-2 Variants through Phylogenetic Analysis and Machine Learning.} 
+  \resumeItem{Literature Review}{Advancing Phylogenetics for Health Threats: Lessons from the COVID-19 Pandemic and Beyond.} 
 \resumeSubHeadingListEnd
 
-%---------------------------TECHNICAL SKILLS--------------------------
+%---------------------------TECHNICAL SKILLS-------------------------------------------------
 
 \section{Technical Skills}
 
 \resumeSubHeadingListStart
-  \resumeItem{Languages}{Python, R, SQL, Java, HTML5, CSS, Bootstrap.} \resumeItem{Libraries}{Scikit-learn, Pandas, NumPy, TensorFlow, PyTorch.} \resumeItem{Tools}{RStudio, Git, Tableau, JIRA, Apache Hive, Talend Studio 6.3.1.}
+  \resumeItem{Languages}{Python, R, SQL, Java, HTML5, CSS, Bootstrap.} 
+  \resumeItem{Libraries}{Scikit-learn, Pandas, NumPy, Matplotlib, TensorFlow, PyTorch.} \resumeItem{Tools}{RStudio, Git, JIRA, Tableau, Apache Hive, Talend Studio 6.3.1.}
   \resumeItem{Frameworks}{Django, Apache Hadoop (MapReduce and HDFS)}
   \resumeItem{Cloud Technologies}{Microsoft Azure, AWS.}
 \resumeSubHeadingListEnd
 
-%---------------------------CERTIFICATIONS---------------------------
+%---------------------------CERTIFICATIONS---------------------------------------------------
 
 \section{Certifications}
 
 \resumeSubHeadingListStart
+  \resumeItem{}{}
   \resumeItem{Microsoft Certified}{Azure Fundamentals}
   \resumeItem{OCA}{Oracle 11g Certified Associate}
 \resumeSubHeadingListEnd
-%--------------------------------------------------------------------
+
+%--------------------------------------------------------------------------------------------
 \end{document}
 
